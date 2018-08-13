@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="24077" started-at="2018-08-10T09:44:14Z" finished-at="2018-08-10T09:44:38Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="24077" started-at="2018-08-10T09:44:14Z" finished-at="2018-08-10T09:44:38Z">
+      <class name="com.bilderlings.testautomation.test.Ordering">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.bilderlings.testautomation.test.Ordering@d70c109]" name="setUp" is-config="true" duration-ms="8234" started-at="2018-08-10T09:44:14Z" finished-at="2018-08-10T09:44:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="registration()[pri:0, instance:com.bilderlings.testautomation.test.Ordering@d70c109]" name="registration" duration-ms="2933" started-at="2018-08-10T09:44:22Z" finished-at="2018-08-10T09:44:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registration -->
+        <test-method status="PASS" signature="shopping()[pri:0, instance:com.bilderlings.testautomation.test.Ordering@d70c109]" name="shopping" duration-ms="5582" started-at="2018-08-10T09:44:25Z" depends-on-methods="com.bilderlings.testautomation.test.Ordering.registration" finished-at="2018-08-10T09:44:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shopping -->
+        <test-method status="PASS" signature="checkout()[pri:0, instance:com.bilderlings.testautomation.test.Ordering@d70c109]" name="checkout" duration-ms="5258" started-at="2018-08-10T09:44:31Z" depends-on-methods="com.bilderlings.testautomation.test.Ordering.shopping" finished-at="2018-08-10T09:44:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkout -->
+        <test-method status="PASS" signature="logout()[pri:0, instance:com.bilderlings.testautomation.test.Ordering@d70c109]" name="logout" duration-ms="754" started-at="2018-08-10T09:44:36Z" depends-on-methods="com.bilderlings.testautomation.test.Ordering.checkout" finished-at="2018-08-10T09:44:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.bilderlings.testautomation.test.Ordering@d70c109]" name="tearDown" is-config="true" duration-ms="1297" started-at="2018-08-10T09:44:37Z" finished-at="2018-08-10T09:44:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.bilderlings.testautomation.test.Ordering -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>
