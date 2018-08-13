@@ -3,40 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="5f33dbb6-a435-494c-a0e9-78778f6c0db5" name="Default" comment="clean">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/bilderlings/testautomation/TestRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/bilderlings/testautomation/TestRunner.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/bilderlings/testautomation/test/Ordering.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/bilderlings/testautomation/test/Ordering.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/homework-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/homework-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/Command line suite/Command line test.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/Command line suite/Command line test.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/bullet_point.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/collapseall.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/emailable-report.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/failed.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/jquery-1.7.1.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-com.bilderlings.testautomation.test.Ordering.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/navigator-bullet.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/old/Command line suite/Command line test.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/old/Command line suite/classes.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/old/Command line suite/groups.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/old/Command line suite/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/old/Command line suite/main.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/old/Command line suite/methods-alphabetical.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/old/Command line suite/methods-not-run.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/old/Command line suite/methods.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/old/Command line suite/reporter-output.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/old/Command line suite/testng.xml.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/old/Command line suite/toc.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/old/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/passed.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/skipped.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/testng-reports.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/testng-reports.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/testng-results.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/testng.css" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path=".idea/" />
@@ -111,8 +77,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="41" column="21" selection-start-line="41" selection-start-column="21" selection-end-line="41" selection-end-column="21" />
+            <state relative-caret-position="476">
+              <caret line="46" column="41" lean-forward="true" selection-start-line="46" selection-start-column="41" selection-end-line="46" selection-end-column="41" />
             </state>
           </provider>
         </entry>
@@ -265,11 +231,6 @@
               <item name="homework" type="b2602c69:ProjectViewProjectNode" />
               <item name="homework" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="homework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="homework" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -279,7 +240,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1534165942686" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1534166387735" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/.idea" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -452,7 +413,7 @@
       <workItem from="1533895639760" duration="2940000" />
       <workItem from="1534155696941" duration="4680000" />
       <workItem from="1534163775615" duration="571000" />
-      <workItem from="1534164418241" duration="1523000" />
+      <workItem from="1534164418241" duration="1873000" />
     </task>
     <task id="LOCAL-00001" summary="clean">
       <created>1533894667484</created>
@@ -468,7 +429,14 @@
       <option name="project" value="LOCAL" />
       <updated>1534164288062</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="clean">
+      <created>1534166047082</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1534166047082</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -504,7 +472,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="59918000" />
+    <option name="totallyTimeSpent" value="60268000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -518,7 +486,7 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2793177" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2793177" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -527,15 +495,15 @@
       <window_info id="Capture Tool" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4914712" visible="true" weight="0.3373102" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4914712" weight="0.3373102" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4989339" weight="0.37201735" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.4989339" weight="0.32960895" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.48987207" weight="0.3286334" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50852877" side_tool="true" visible="true" weight="0.3373102" />
-      <window_info anchor="bottom" id="Version Control" order="10" sideWeight="0.4989339" weight="0.32960895" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.48933902" visible="true" weight="0.3286334" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.510661" side_tool="true" visible="true" weight="0.3286334" />
+      <window_info anchor="bottom" id="Version Control" order="10" sideWeight="0.49840087" weight="0.3286334" />
       <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49840087" weight="0.3264642" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="1" weight="0.25" />
@@ -763,8 +731,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="41" column="21" selection-start-line="41" selection-start-column="21" selection-end-line="41" selection-end-column="21" />
+        <state relative-caret-position="476">
+          <caret line="46" column="41" lean-forward="true" selection-start-line="46" selection-start-column="41" selection-end-line="46" selection-end-column="41" />
         </state>
       </provider>
     </entry>
