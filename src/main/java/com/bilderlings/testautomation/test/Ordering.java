@@ -5,6 +5,7 @@ import com.codeborne.selenide.SelenideElement;
 import org.apache.commons.lang3.RandomStringUtils;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
+import org.testng.annotations.Test;
 
 import java.util.Random;
 
@@ -45,12 +46,13 @@ public class Ordering {
 
     @BeforeClass
     public void setUp() {
+        System.setProperty("selenide.browser", "chrome");
         open("http://demo.prestashop.com");
         $("span.hide-header").click();
         switchTo().frame("framelive");
     }
 
-    @org.testng.annotations.Test
+    @Test
     public void registration() {
 
         //go to login page
@@ -78,15 +80,9 @@ public class Ordering {
     public void shopping() {
 
         //Open "Accessories" section
-        $(byId("category-6")).click();
-        $(byId("category-description")).waitUntil(visible, timeout);
-
         //Filter out only available items with price range $18-20
         final String filter = "$18.00 - $20.00";
-        $(withText("Price")).scrollIntoView(true);
-
-        $(byText(filter)).click();
-        $("li.filter-block").waitUntil(visible, timeout);
+        openFilteredAccessoriesPage(filter);
 
         //Check the items are correctly filtered
         assertTrue($("li.filter-block").has(text(filter)), "filter "+filter+" successfully applied");
@@ -120,13 +116,13 @@ public class Ordering {
         //Go back to filtered list of items, choose one more item
 
         $(byText("Continue shopping")).click();
-        back(); back();
 
-        products.first().click();
+        openFilteredAccessoriesPage(filter);
+
+        products.last().click();
         itemTwo = getProductTitle();
         itemTwoPrice = getProductPrice();
         addToCart.click();
-
 
         //Go to cart
         $(byText("Proceed to checkout")).click();
@@ -135,7 +131,7 @@ public class Ordering {
         assertEquals(cartSubtotal, orderTotal=itemOneTotal+itemTwoPrice, "order subtotal is correctly calculated");
     }
 
-    @org.testng.annotations.Test(dependsOnMethods = "shopping")
+    @Test(dependsOnMethods = "shopping")
     public void checkout() {
         //Checkout
         $(byText("Proceed to checkout")).click();
@@ -179,7 +175,7 @@ public class Ordering {
 
     }
 
-    @org.testng.annotations.Test(dependsOnMethods = "checkout")
+    @Test(dependsOnMethods = "checkout")
     public void logout() {
         // Logout, check you've been successfully logged out
         $(byText("Sign out")).click();
@@ -192,6 +188,18 @@ public class Ordering {
     }
 
     //helper methods
+
+    private void openFilteredAccessoriesPage(String filter){
+
+        $(byId("category-6")).click();
+        $(byId("category-description")).waitUntil(visible, timeout);
+
+
+        $(withText("Price")).scrollIntoView(true);
+
+        $(byText(filter)).click();
+        $("li.filter-block").waitUntil(visible, timeout);
+    }
 
     private String getProductTitle(){
         return $("h1.h1").text();

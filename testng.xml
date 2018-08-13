@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Suite" verbose="1" >
+    <test name="Ordering" >
+        <classes>
+            <class name="com.bilderlings.testautomation.test.Ordering"/>
+        </classes>
+    </test>
+</suite>
