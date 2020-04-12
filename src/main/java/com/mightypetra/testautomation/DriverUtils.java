@@ -11,5 +11,6 @@ public class DriverUtils {
         Configuration.browser = browser;
         Configuration.startMaximized = true;
         Configuration.timeout = TIMEOUT;
+        Configuration.reportsFolder = "allure-results";
     }
 }
