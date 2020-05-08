@@ -1,9 +1,9 @@
-## Stack:
+## Stack
  - Java8
  - [Junit5](https://junit.org/junit5/)
  - [Selenide](https://selenide.org/)
 
-## Running the test
+## Running tests
  ### Prerequisites
  
  - Java8 installed
