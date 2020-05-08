@@ -1,12 +1,16 @@
-## Test Automation Sample Project
-
-### Technologies:
+## Stack:
  - Java8
  - [Junit5](https://junit.org/junit5/)
  - [Selenide](https://selenide.org/)
- - [Allure reporting](http://allure.qatools.ru/)
 
-
- In the future:
- - Cucumber
- - rest assured
+## Running the test
+ ### Prerequisites
+ 
+ - Java8 installed
+ - Maven installed
+ 
+ [Instructions](https://www.baeldung.com/install-maven-on-windows-linux-mac) on how to install both.
+ 
+ ### Running test
+ 
+ ``` mvn test ```
