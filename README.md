@@ -13,4 +13,6 @@
  
  ### Running test
  
+ Download project and run
+ 
  ``` mvn test ```
