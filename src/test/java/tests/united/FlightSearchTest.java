@@ -21,7 +21,7 @@ class FlightSearchTest {
     @BeforeAll
     static void setUp() {
         DriverUtils.setDriver(DriverUtils.FIREFOX);
-        open("https://www.united.com");
+        open("https://www.united.com/en/us");
 
     }
 

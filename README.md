@@ -11,6 +11,8 @@
  
  [Instructions](https://www.baeldung.com/install-maven-on-windows-linux-mac) on how to install both.
  
+ _(make sure both are added to 'Path' environmental variable)_
+ 
  ### Running test
  
  Download project and run
