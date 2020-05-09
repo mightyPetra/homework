@@ -43,7 +43,7 @@ class FlightSearchTest {
         SearchResultPage.showAllFlightResults();
         SearchResultPage.sortFlightsByBasicEconomyFare("ascending");
 
-        JsonArray flights = SearchResultPage.collectFlightData();
+        JsonArray flights = SearchResultPage.collectTableData();
 
         SearchResultPage.filterJsonOutBy(flights, FlightDataHeaders.PRICE, "");
         SearchResultPage.printFlightInfo(flights);

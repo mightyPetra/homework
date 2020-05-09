@@ -21,7 +21,7 @@ public class SearchResultPage {
     private static final SelenideElement btnBasicEconomy = $("#column-ECO-BASIC");
 
 
-    public static JsonArray collectFlightData() {
+    public static JsonArray collectTableData() {
         tableFlightResults.waitUntil(Condition.appears, DriverUtils.TIMEOUT);
         ElementsCollection rows = Selenide.elements("li.flight-block");
         JsonArray flightsJson = new JsonArray();
