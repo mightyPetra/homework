@@ -1,7 +1,7 @@
 package pages;
 
 import com.codeborne.selenide.SelenideElement;
-import com.mightypetra.testautomation.User;
+import com.mightypetra.testautomation.UserProfile;
 import org.openqa.selenium.By;
 
 import static com.codeborne.selenide.Selectors.byClassName;
@@ -18,9 +18,9 @@ public class RegistrationPage {
     private static final SelenideElement inputPassword = registrationFrom.$(byName("password"));
     private static final SelenideElement checkboxGdpr = registrationFrom.$(byName("psgdpr"));
 
-    private static final SelenideElement buttonSave = registrationFrom.$(By.xpath(".//button[@data-link-action='save-customer']"));
+    public static final SelenideElement buttonSave = registrationFrom.$(By.xpath(".//button[@data-link-action='save-customer']"));
 
-    public static void fillRegistrationForm(User user) {
+    public static void fillRegistrationForm(UserProfile user) {
         inputName.setValue(user.getName());
         inputSurname.setValue(user.getSurname());
         inputEmail.setValue(user.getEmail());

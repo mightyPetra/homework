@@ -2,11 +2,13 @@ package pages;
 
 import com.codeborne.selenide.Condition;
 import com.mightypetra.testautomation.DriverUtils;
-import com.mightypetra.testautomation.User;
+import com.mightypetra.testautomation.UserProfile;
+
+import static com.codeborne.selenide.Selenide.$;
 
 public class AppGeneral {
 
-    public static void registerNewUser(User user) {
+    public static void registerNewUser(UserProfile user) {
         HomePage.clickSignIn();
         HomePage.clickCreateNewAccount();
         RegistrationPage.fillRegistrationForm(user);
