@@ -43,8 +43,8 @@ class SmokeTest {
         RegistrationPage.fillRegistrationForm(user);
         RegistrationPage.checkTOCs();
         assumeTrue(RegistrationPage.registrationFrom.is(visible), "Registration form is not visible");
-//        RegistrationPage.saveCustomer();
-        assumeTrue(HomePage.buttonSignOut.is(visible), "User was not signed in");
+        RegistrationPage.saveCustomer();
+        assertTrue(HomePage.buttonSignOut.is(visible), "User was not signed in");
         assertEquals(HomePage.getCurrentUserName(), user.getFullName(), "UserProfile name doesn't match");
     }
 
