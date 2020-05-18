@@ -8,10 +8,11 @@
 
 ### Running tests
 
- ```mvn clean test```
+  ```mvn clean test```
 
- To generate allure reports run:
+### Report
+To generate allure reports run:
 
- ``` mvn allure:report ```
+   ``` mvn allure:report ```
 
- Report will be generated tо directory: target/site/allure-maven/index.html
+  Report will be generated tо directory: target/site/allure-maven/index.html
