@@ -25,12 +25,7 @@ public class User {
     }
 
     public User() {
-        this.name = generateString();
-        this.surname = generateString();
-        String emailTemplate = "%s.%s@mail.com";
-        this.email = String.format(emailTemplate, name, surname);
-        this.password = randomUUID().toString();
-        this.birthDate = "13/01/1999";
+        new User(generateString(), generateString());
     }
 
     public String generateString() {
